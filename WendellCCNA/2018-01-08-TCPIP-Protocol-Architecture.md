@@ -46,3 +46,8 @@ Each layer adds its own header (and sometimes tailer)
 3. Encapsulate the data supplied by the transport layer inside an internet layer (IP) header. *(IP is the only protocol available in the TCP/IP network model)*
 4. Encapsulate the data supplied by the internet layer inside a network access layer header and tailer. *(This is the only layer that uses both a header and tailer)*
 5. Transmit the bits. *(The physical layer encodes a signal onto the medium to transmit the frame)*
+
+
+- **Segment** - TCP and Data
+- **Packet** - IP, TCP Data
+- **Frame** - Header, IP, TCP, Data, Tailer
