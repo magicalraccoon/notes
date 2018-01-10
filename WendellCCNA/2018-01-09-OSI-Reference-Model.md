@@ -25,3 +25,10 @@ Although similar, OSI layers do not exactly line up with TCP/IP layers.
 **Layer 2 - *Data Link*** - Determines when a device can send data over a particular medium. Also defines the format of headers and tailers.
 
 **Layer 1 - *Physical*** - Exclusively the physical transmission medium.
+
+*Fun mnemonic: Please Do Not Take Sausage Pizzas Away (Layers 1 to 7)*
+
+### OSI Encapsulation Terminology
+Lower layers encapsulate the higher layer's within a header.
+
+Protocol Data Unit (PDU) - *bits that include headers and tailers, as well as the encapsulated data. Can be used like L3PDU (Layer 3 PDU).*
